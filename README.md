@@ -1,2 +1,2 @@
 # duplodoc
-Documentation for the DuploCloud
+Documentation for the DuploCloud by srikar
