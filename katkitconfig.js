@@ -40,7 +40,8 @@
 						  "BuildParams":"PHASE=PRE_DEPLOY_BUILD, FOO=BAR",
 						  "Order":0,
 						  "Parallelism":1,
-						  "ContainerImage":"duplocloud/zbuilder:v7"
+						  "ContainerImage":"duplocloud/zbuilder:v7",
+						   "IsPhaseAutomated": true
 					   },
 					   {  
 						  "Name":"DEPLOY",
