@@ -41,7 +41,8 @@
 						  "Order":0,
 						  "Parallelism":1,
 						  "ContainerImage":"duplocloud/zbuilder:v7",
-						  "IsPhaseAutomated": true
+						  "IsPhaseAutomated": true,
+						   "Cloud": 4
 					   },
 					   {  
 						  "Name":"DEPLOY",
@@ -49,7 +50,8 @@
 						  "BuildParams":"PHASE=DEPLOY",
 						  "Order":1,
 						  "Parallelism":1,
-						  "ContainerImage":null
+						  "ContainerImage":null,
+						   "Cloud": 4
 					   } 
 					]
 	  },
